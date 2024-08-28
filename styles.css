@@ -6,12 +6,30 @@ body {
     background-color: rgb(173, 247, 250);
 }
 
-h2 {
-    margin-top: 60px;
+.header {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 500px;
+    border-radius: 5cqh;
 }
+
+p.bearBuddy {
+    font-family: monospace;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+
 p {
     margin-bottom: 30px;
+    font-family: monospace;
+    font-size: 15px;
 }
+
 .box{
     background-color: rgb(185, 183, 183);
     display: flex;
@@ -42,17 +60,28 @@ p {
     margin-bottom: 35px;
     margin-top: 20px;
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: monospace;
+    text-align: center;
 }
 
-.playFeedWash {
+.row {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    gap: 5px;
+    justify-content: space-evenly;
+    width: 200px;
 }
+
+.text {
+    font-family: monospace;
+    font-size: 12px;
+    text-align: center;
+    margin: 4px;
+}
+
+.knapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 button {
     width: 60px;
